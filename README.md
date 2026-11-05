@@ -28,6 +28,7 @@ El `base` de Vite es relativo (`./`), así que `dist/` funciona en cualquier rut
 - Equipo: [src/team.js](src/team.js).
 - Imágenes y logos: `public/img/`. Las dos figuras salen de la memoria científico-técnica del proyecto.
 - Secciones: un componente por sección en `src/components/`.
+- Noticias: [src/news.js](src/news.js), una entrada por noticia (fecha, tipo, título y texto en CA/ES/EN, enlace e imagen opcionales). Las imágenes van en `public/img/news/`. La web las ordena por fecha y muestra 6, con un botón para ver las anteriores.
 
 ## Publicación
 
