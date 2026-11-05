@@ -27,7 +27,12 @@ const initials = (name) => name.split(' ').filter((w) => /^[A-ZÀ-Ý]/.test(w)).
       </div>
 
       <ul class="partners">
-        <li v-for="p in team.partners" :key="p">{{ p }}</li>
+        <li v-for="p in team.partners" :key="p.name">
+          <a :href="p.url" target="_blank" rel="noopener" :class="{ 'has-logo': p.logo }">
+            <img v-if="p.logo" :src="'./img/logos/partners/' + p.logo" :alt="p.name" loading="lazy" />
+            <span>{{ p.name }}</span>
+          </a>
+        </li>
       </ul>
     </div>
   </section>
@@ -50,6 +55,15 @@ strong { display: block; font-size: 19px; line-height: 1.2; }
 .org { display: block; font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ultramarine); }
 .area { display: block; font-size: 15px; color: rgba(var(--navyRGB), .7); line-height: 1.3; }
 
-.partners { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
-.partners li { padding: 8px 14px; font-size: 15px; font-weight: 600; background: none; border: 1px solid rgba(var(--navyRGB), .25); }
+.partners { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); margin-top: 8px; }
+.partners li { padding: 0; }
+.partners a {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; min-height: 110px; padding: 16px; text-align: center;
+  font-size: 15px; font-weight: 600; color: var(--navy); text-decoration: none;
+  border: 1px solid rgba(var(--navyRGB), .15); border-radius: var(--radius); transition: border-color .2s, transform .2s;
+}
+.partners a:hover { border-color: var(--pink); transform: translateY(-2px); }
+.partners img { height: 48px; max-width: 100%; object-fit: contain; }
+.partners .has-logo span { font-size: 13px; color: rgba(var(--navyRGB), .7); }
 </style>
