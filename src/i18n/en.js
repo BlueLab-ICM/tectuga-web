@@ -1,0 +1,104 @@
+export default {
+  nav: { about: 'The project', objectives: 'Objectives', approach: 'Technology', sites: 'Where we work', team: 'Team' },
+  hero: {
+    kicker: 'Research project · ICM-CSIC',
+    title: 'Sentinels of the sea',
+    subtitle: 'Innovative animal-borne cameras and autonomous vehicles for ecological assessments of sea turtles and their habitats.',
+    cta: 'Discover the project',
+  },
+  about: {
+    label: 'The project',
+    title: 'Sea turtles as ocean explorers',
+    paragraphs: [
+      'Monitoring marine ecosystems is expensive and slow, and most Spanish and European waters are still unprotected. Knowing where species live, what they eat and which threats they face is essential to design effective Marine Protected Areas.',
+      'TECTUGA brings biologists and engineers together. We fit sea turtles with small cameras that show, from the animal’s own point of view, how they feed, socialise and react to threats. A fleet of autonomous surface vehicles (ASVs) guided by machine learning follows them, relays their data in real time and recovers the devices.',
+    ],
+    hypothesisLabel: 'Starting hypothesis',
+    hypothesis: 'Sea turtles carrying animal-borne devices, supported by ASVs enhanced with machine-learning algorithms, can serve as “autonomous surveying platforms” for rapid ecological assessments and habitat mapping.',
+    speciesTitle: 'Two species in Spanish waters',
+    species: [
+      { name: 'Loggerhead turtle', latin: 'Caretta caretta', status: 'Vulnerable', note: 'Juveniles forage in the western Mediterranean and around the Canary Islands.' },
+      { name: 'Green turtle', latin: 'Chelonia mydas', status: 'Endangered', note: 'Juveniles feed on seagrass and algae in the Canary Islands.' },
+    ],
+    statusSource: 'IUCN Red List',
+    facts: [
+      { value: '36', label: 'months' },
+      { value: '13', label: 'team members' },
+      { value: '7', label: 'work packages' },
+      { value: '3', label: 'study regions' },
+    ],
+    figureCaption: 'The four pillars of TECTUGA: animal-borne devices, machine learning, autonomous vehicles, behaviour studies and habitat mapping.',
+  },
+  objectives: {
+    label: 'Objectives',
+    title: 'What we want to achieve',
+    intro: 'Use animal-borne cameras and autonomous vehicles to obtain ecological and conservation data on endangered sea turtles and their ecosystems, with tools that can be applied to other marine megafauna worldwide.',
+    lead: 'Lead',
+    items: [
+      {
+        title: 'Reveal the behaviour of turtles and the threats they face',
+        pi: 'Nathan J. Robinson',
+        points: ['Effect of handling and tagging on behaviour', 'Diet, foraging and food selectivity', 'Social behaviour between turtles', 'Encounters with fishing gear, debris and boat traffic'],
+      },
+      {
+        title: 'Connect animal-borne devices with autonomous vehicles',
+        pi: 'Ivan Masmitja',
+        points: ['Acoustic and radio receivers on board the ASVs', 'Validation in test tanks, with turtles in captivity and in the wild', 'Software and interface for human-in-the-loop supervision'],
+      },
+      {
+        title: 'Track moving targets with machine learning',
+        pi: 'Ivan Masmitja',
+        points: ['Multi-agent reinforcement learning (MARL) to coordinate an ASV fleet', 'Range-only and TDOA acoustic localisation', 'Fine-scale turtle movements from accelerometry and ASV positions', 'Does the ASV change turtle behaviour?'],
+      },
+      {
+        title: 'Turtles as autonomous surveying platforms',
+        pi: 'Nathan J. Robinson',
+        points: ['Georeferenced photo-mosaics of the seafloor', 'Species accumulation curves', 'Distribution of species of conservation concern and invasive species'],
+      },
+    ],
+  },
+  approach: {
+    label: 'Technology',
+    title: 'Cameras on turtles, robots on the surface',
+    pillars: [
+      { icon: 'camera', title: 'Animal-borne cameras', text: 'Low-cost, open-source cameras built with Arribada Initiative, with a delayed start so they record natural behaviour. They release automatically and float to the surface.' },
+      { icon: 'boat', title: 'Autonomous surface vehicles', text: 'A fleet of BlueBoat ASVs running BlueOS and ArduPilot, with acoustic and radio receivers, an edge camera and long-range communications.' },
+      { icon: 'brain', title: 'Machine learning', text: 'Multi-agent reinforcement learning to coordinate the fleet, and computer vision to label behaviours, habitats and species in hours of video.' },
+      { icon: 'map', title: 'Habitat mapping', text: 'Combining camera images, accelerometry and ASV positions to map seagrass meadows and seabed habitats used by the turtles.' },
+    ],
+    trackingTitle: 'How the fleet follows a turtle',
+    trackingText: 'The tagged turtle emits acoustic signals. Three ASVs, coordinated by MARL algorithms, keep a formation around it and estimate its position by time difference of arrival (TDOA). When the camera detaches and floats, the vehicles locate it by radio and guide the team to recover it.',
+    trackingCaption: 'A fleet of three BlueBoat ASVs tracking a tagged turtle.',
+    wpTitle: 'Work packages',
+    wps: [
+      'Coordination',
+      'Target tracking with ASVs and machine learning',
+      'Field deployments of animal-borne cameras',
+      'Machine-learning tools for video analysis',
+      'Sea turtle behaviour and threat analyses',
+      'Sea turtles as autonomous surveying platforms',
+      'Dissemination and communication',
+    ],
+  },
+  sites: {
+    label: 'Where we work',
+    title: 'From the Canary Islands to the Mediterranean',
+    items: [
+      { region: 'Canary Islands', species: 'Green and loggerhead turtles', places: ['El Pajar beach, Gran Canaria', 'Abades Bay, Tenerife', 'Teno-Rasca marine strip (SAC), Tenerife'], text: 'Two 10-day tagging missions per year with ADS Biodiversidad.' },
+      { region: 'Balearic Sea', species: 'Loggerhead turtles', places: ['Expeditions on board the Bonnie Lass'], text: 'Two tagging missions per year with SaveTheMed.' },
+      { region: 'Barcelona', species: 'Technology', places: ['ICM-CSIC Oceanographic Engineering Lab', 'Coastal waters of Barcelona'], text: 'Development and sea trials of the ASV fleet and tracking algorithms.' },
+    ],
+  },
+  team: {
+    label: 'Team',
+    title: 'Biologists and engineers, together',
+    groups: { pi: 'Principal investigators', research: 'Research team', work: 'Work team' },
+  },
+  footer: {
+    funding: 'Project PID2024 funded by MICIU/AEI/10.13039/501100011033.',
+    institute: 'Institut de Ciències del Mar (ICM-CSIC)',
+    address: 'Pg. Marítim de la Barceloneta, 37-49 · 08003 Barcelona',
+    madeBy: 'Website by BlueLab, ICM-CSIC',
+    code: 'Source code',
+  },
+}

@@ -1,0 +1,84 @@
+/* The palette and shapes of the ICM (icm.csic.es), as in the other BlueLab / SIO sites */
+:root {
+  --navy: rgb(1, 33, 105);        /* text, headers, footer */
+  --navyRGB: 1, 33, 105;
+  --ultramarine: rgb(16, 6, 159); /* titles and accents */
+  --cyan: rgb(0, 146, 188);       /* hover, links */
+  --teal: rgb(0, 191, 178);
+  --pink: rgb(239, 96, 121);      /* what is active */
+  --grey: rgb(238, 238, 238);
+  --lilac: rgb(240, 240, 250);
+  --white: #fff;
+  --radius: 3px;
+  --max: 1180px;
+  --header-h: 72px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); }
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--navy);
+  font-family: "TT Commons", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { margin: 0; line-height: 1.1; font-weight: 700; }
+p { margin: 0 0 1em; }
+a { color: var(--cyan); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; display: block; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+section { padding: 96px 0; }
+section.alt { background: var(--grey); }
+
+/* Section label: uppercase, spaced, with a short pink bar (ICM) */
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 16px;
+}
+.label::before { content: ""; width: 32px; height: 3px; background: var(--pink); }
+
+.section-title {
+  font-size: clamp(32px, 4.4vw, 52px);
+  color: var(--ultramarine);
+  margin-bottom: 32px;
+  max-width: 20ch;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  border-radius: var(--radius);
+  background: var(--pink);
+  color: var(--white);
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: background .2s;
+}
+.btn:hover { background: var(--white); color: var(--navy); text-decoration: none; }
+
+figure { margin: 0; }
+figcaption { font-size: 15px; color: rgba(var(--navyRGB), .7); margin-top: 10px; }
+
+@media (max-width: 720px) {
+  body { font-size: 17px; }
+  section { padding: 64px 0; }
+  .container { padding: 0 16px; }
+}

@@ -1,0 +1,104 @@
+export default {
+  nav: { about: 'El proyecto', objectives: 'Objetivos', approach: 'Tecnología', sites: 'Dónde trabajamos', team: 'Equipo' },
+  hero: {
+    kicker: 'Proyecto de investigación · ICM-CSIC',
+    title: 'Centinelas del mar',
+    subtitle: 'Tecnologías innovadoras de cámaras en animales y vehículos autónomos para evaluaciones ecológicas de las tortugas marinas y sus hábitats.',
+    cta: 'Descubre el proyecto',
+  },
+  about: {
+    label: 'El proyecto',
+    title: 'Las tortugas marinas como exploradoras del océano',
+    paragraphs: [
+      'Monitorizar los ecosistemas marinos es caro y lento, y la mayor parte de las aguas españolas y europeas siguen sin protección. Saber dónde viven las especies, qué comen y a qué amenazas se enfrentan es clave para diseñar Áreas Marinas Protegidas eficaces.',
+      'TECTUGA une a biólogos e ingenieros. Equipamos tortugas marinas con pequeñas cámaras que muestran, desde el punto de vista del propio animal, cómo se alimentan, cómo se relacionan y cómo reaccionan ante las amenazas. Una flota de vehículos autónomos de superficie (ASV) guiada por aprendizaje automático las sigue, transmite sus datos en tiempo real y recupera los dispositivos.',
+    ],
+    hypothesisLabel: 'Hipótesis de partida',
+    hypothesis: 'Las tortugas marinas con dispositivos instalados, apoyadas por ASV con algoritmos de aprendizaje automático, pueden actuar como «plataformas autónomas de muestreo» para evaluaciones ecológicas rápidas y cartografía de hábitats.',
+    speciesTitle: 'Dos especies en aguas españolas',
+    species: [
+      { name: 'Tortuga boba', latin: 'Caretta caretta', status: 'Vulnerable', note: 'Los juveniles se alimentan en el Mediterráneo occidental y en torno a Canarias.' },
+      { name: 'Tortuga verde', latin: 'Chelonia mydas', status: 'En peligro', note: 'Los juveniles se alimentan de fanerógamas y algas en Canarias.' },
+    ],
+    statusSource: 'Lista Roja de la UICN',
+    facts: [
+      { value: '36', label: 'meses' },
+      { value: '13', label: 'personas en el equipo' },
+      { value: '7', label: 'paquetes de trabajo' },
+      { value: '3', label: 'regiones de estudio' },
+    ],
+    figureCaption: 'Los pilares de TECTUGA: dispositivos en animales, aprendizaje automático, vehículos autónomos, estudios de comportamiento y cartografía de hábitats.',
+  },
+  objectives: {
+    label: 'Objetivos',
+    title: 'Qué queremos conseguir',
+    intro: 'Usar cámaras en animales y vehículos autónomos para obtener datos ecológicos y de conservación sobre tortugas marinas amenazadas y sus ecosistemas, con herramientas aplicables a otra megafauna marina en todo el mundo.',
+    lead: 'Responsable',
+    items: [
+      {
+        title: 'Revelar el comportamiento de las tortugas y las amenazas que sufren',
+        pi: 'Nathan J. Robinson',
+        points: ['Efecto de la manipulación y el marcaje en el comportamiento', 'Dieta, alimentación y selectividad', 'Comportamiento social entre tortugas', 'Encuentros con artes de pesca, residuos y tráfico marítimo'],
+      },
+      {
+        title: 'Conectar los dispositivos de los animales con vehículos autónomos',
+        pi: 'Ivan Masmitja',
+        points: ['Receptores acústicos y de radio a bordo de los ASV', 'Validación en tanques de pruebas, con tortugas en cautividad y en libertad', 'Software e interfaz para la supervisión humana en el bucle'],
+      },
+      {
+        title: 'Seguir objetivos en movimiento con aprendizaje automático',
+        pi: 'Ivan Masmitja',
+        points: ['Aprendizaje por refuerzo multiagente (MARL) para coordinar una flota de ASV', 'Localización acústica por distancia y por TDOA', 'Movimientos finos de las tortugas a partir de acelerometría y posiciones de los ASV', '¿Altera el ASV el comportamiento de la tortuga?'],
+      },
+      {
+        title: 'Las tortugas como plataformas autónomas de muestreo',
+        pi: 'Nathan J. Robinson',
+        points: ['Fotomosaicos georreferenciados del fondo marino', 'Curvas de acumulación de especies', 'Distribución de especies de interés para la conservación y especies invasoras'],
+      },
+    ],
+  },
+  approach: {
+    label: 'Tecnología',
+    title: 'Cámaras en las tortugas, robots en la superficie',
+    pillars: [
+      { icon: 'camera', title: 'Cámaras en animales', text: 'Cámaras de bajo coste y código abierto desarrolladas con Arribada Initiative, con arranque diferido para registrar el comportamiento natural. Se liberan solas y flotan hasta la superficie.' },
+      { icon: 'boat', title: 'Vehículos autónomos de superficie', text: 'Una flota de ASV BlueBoat con BlueOS y ArduPilot, receptores acústicos y de radio, cámara con computación en el borde y comunicaciones de largo alcance.' },
+      { icon: 'brain', title: 'Aprendizaje automático', text: 'Aprendizaje por refuerzo multiagente para coordinar la flota y visión por computador para etiquetar comportamientos, hábitats y especies en horas de vídeo.' },
+      { icon: 'map', title: 'Cartografía de hábitats', text: 'Combinamos imágenes, acelerometría y posiciones de los ASV para cartografiar las praderas marinas y los fondos que usan las tortugas.' },
+    ],
+    trackingTitle: 'Cómo sigue la flota a una tortuga',
+    trackingText: 'La tortuga marcada emite señales acústicas. Tres ASV, coordinados por algoritmos MARL, mantienen una formación a su alrededor y estiman su posición por diferencia de tiempos de llegada (TDOA). Cuando la cámara se suelta y flota, los vehículos la localizan por radio y guían al equipo para recuperarla.',
+    trackingCaption: 'Una flota de tres ASV BlueBoat siguiendo a una tortuga marcada.',
+    wpTitle: 'Paquetes de trabajo',
+    wps: [
+      'Coordinación',
+      'Seguimiento de objetivos con ASV y aprendizaje automático',
+      'Despliegues de cámaras en tortugas',
+      'Herramientas de aprendizaje automático para el análisis de vídeo',
+      'Análisis del comportamiento y de las amenazas',
+      'Las tortugas como plataformas autónomas de muestreo',
+      'Difusión y comunicación',
+    ],
+  },
+  sites: {
+    label: 'Dónde trabajamos',
+    title: 'De Canarias al Mediterráneo',
+    items: [
+      { region: 'Islas Canarias', species: 'Tortuga verde y tortuga boba', places: ['Playa de El Pajar, Gran Canaria', 'Bahía de Abades, Tenerife', 'ZEC Franja marina de Teno-Rasca, Tenerife'], text: 'Dos campañas de marcaje de 10 días al año con ADS Biodiversidad.' },
+      { region: 'Mar Balear', species: 'Tortuga boba', places: ['Expediciones a bordo del Bonnie Lass'], text: 'Dos campañas de marcaje al año con SaveTheMed.' },
+      { region: 'Barcelona', species: 'Tecnología', places: ['Laboratorio de Ingeniería Oceanográfica del ICM-CSIC', 'Aguas costeras de Barcelona'], text: 'Desarrollo y pruebas en el mar de la flota de ASV y de los algoritmos de seguimiento.' },
+    ],
+  },
+  team: {
+    label: 'Equipo',
+    title: 'Biólogos e ingenieros, juntos',
+    groups: { pi: 'Investigadores principales', research: 'Equipo de investigación', work: 'Equipo de trabajo' },
+  },
+  footer: {
+    funding: 'Proyecto PID2024 financiado por MICIU/AEI/10.13039/501100011033.',
+    institute: 'Institut de Ciències del Mar (ICM-CSIC)',
+    address: 'Pg. Marítim de la Barceloneta, 37-49 · 08003 Barcelona',
+    madeBy: 'Web hecha por BlueLab, ICM-CSIC',
+    code: 'Código fuente',
+  },
+}
