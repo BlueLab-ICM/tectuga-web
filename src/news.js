@@ -11,6 +11,7 @@
 export default [
   {
     date: '2026-07-22',
+    image: 'img/news/espai-vela-blueboat.jpg',
     type: 'campaign',
     title: [
       'Els BlueBoats localitzen boies al port de Barcelona',
@@ -29,6 +30,7 @@ export default [
   },
   {
     date: '2026-07-20',
+    image: 'img/news/obsea-2026.jpg',
     type: 'campaign',
     title: [
       'Experiment mar endins a l’observatori OBSEA',
@@ -44,6 +46,7 @@ export default [
   },
   {
     date: '2025-08-24',
+    image: 'img/news/mbari-fulbright-lrauv.jpg',
     type: 'project',
     title: [
       'Estada de recerca al MBARI amb una beca Fulbright',
@@ -62,6 +65,7 @@ export default [
   },
   {
     date: '2026-11-10',
+    image: 'img/news/open-house-poster.jpg',
     type: 'outreach',
     title: [
       'Tortugues exploradores a les Portes Obertes de l’ICM',
@@ -80,6 +84,7 @@ export default [
   },
   {
     date: '2026-09-21',
+    image: 'img/news/oceans-2026-monterey.jpg',
     type: 'conference',
     title: [
       'TECTUGA a OCEANS 2026 Monterey',
@@ -95,6 +100,7 @@ export default [
   },
   {
     date: '2026-06-03',
+    image: 'img/news/icra-2026-vienna.jpg',
     type: 'conference',
     title: [
       'Article a ICRA 2026, Viena',
@@ -113,6 +119,7 @@ export default [
   },
   {
     date: '2026-11-05',
+    image: 'img/tectuga-concept.png',
     type: 'project',
     title: [
       'Neix la web de TECTUGA',
