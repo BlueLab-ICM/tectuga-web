@@ -10,7 +10,40 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
-    date: '2025-08-25',
+    date: '2026-07-22',
+    type: 'campaign',
+    title: [
+      'Els BlueBoats localitzen boies al port de Barcelona',
+      'Los BlueBoats localizan boyas en el puerto de Barcelona',
+      'BlueBoats locate buoys in Barcelona harbour',
+    ],
+    text: [
+      'Durant el 2026 hem fet dues tandes de proves amb els BlueBoats de l’ICM per localitzar petites boies de superfície, en col·laboració amb Matias Carandell, de la Facultat de Nàutica de Barcelona (FNB-UPC). Els assaigs es van fer des de l’Espai Vela de la FNB, al port de Barcelona; la segona campanya va tenir lloc el 22 de juliol. El treball forma part del desenvolupament de les boies pop-up per a observatoris submarins autònoms.',
+      'Durante 2026 hemos realizado dos tandas de pruebas con los BlueBoats del ICM para localizar pequeñas boyas de superficie, en colaboración con Matias Carandell, de la Facultat de Nàutica de Barcelona (FNB-UPC). Los ensayos se hicieron desde el Espai Vela de la FNB, en el puerto de Barcelona; la segunda campaña tuvo lugar el 22 de julio. El trabajo forma parte del desarrollo de las boyas pop-up para observatorios submarinos autónomos.',
+      'In 2026 we ran two rounds of trials with the ICM BlueBoats to locate small surface buoys, together with Matias Carandell from the Barcelona School of Nautical Studies (FNB-UPC). The tests were run from the FNB’s Espai Vela in Barcelona harbour; the second campaign took place on 22 July. The work is part of the development of pop-up buoys for stand-alone seabed observatories.',
+    ],
+    links: [
+      { label: 'Espai Vela (FNB-UPC)', url: 'https://www.fnb.upc.edu/content/nou-espai-vela-de-la-fnb-al-port-de-barcelona' },
+      { label: 'Pop-up buoys · Results in Engineering', url: 'https://www.sciencedirect.com/science/article/pii/S2590123026030513' },
+    ],
+  },
+  {
+    date: '2026-07-20',
+    type: 'campaign',
+    title: [
+      'Experiment mar endins a l’observatori OBSEA',
+      'Experimento mar adentro en el observatorio OBSEA',
+      'Offshore experiment at the OBSEA observatory',
+    ],
+    text: [
+      'El 20 de juliol vam sortir mar endins fins a l’OBSEA, l’observatori submarí cablejat de Vilanova i la Geltrú gestionat pel grup SARTI de la UPC. Hi vam continuar treballant en el seguiment de petites boies a la superfície del mar amb els nostres vehicles autònoms, ara en condicions de mar obert.',
+      'El 20 de julio salimos mar adentro hasta el OBSEA, el observatorio submarino cableado de Vilanova i la Geltrú gestionado por el grupo SARTI de la UPC. Allí seguimos trabajando en el seguimiento de pequeñas boyas en la superficie del mar con nuestros vehículos autónomos, ahora en condiciones de mar abierto.',
+      'On 20 July we headed offshore to OBSEA, the cabled seafloor observatory off Vilanova i la Geltrú run by the SARTI research group at UPC. There we continued our work on tracking small buoys on the sea surface with our autonomous vehicles, this time in open-sea conditions.',
+    ],
+    links: [{ label: 'OBSEA', url: 'https://www.obsea.es/' }],
+  },
+  {
+    date: '2025-08-24',
     type: 'project',
     title: [
       'Estada de recerca al MBARI amb una beca Fulbright',
@@ -18,9 +51,9 @@ export default [
       'Research stay at MBARI with a Fulbright fellowship',
     ],
     text: [
-      'De finals d’agost a mitjan desembre de 2025, Ivan Masmitja va fer una estada al Monterey Bay Aquarium Research Institute (MBARI, Califòrnia) gràcies a una beca Fulbright. Allà va provar al mar els algorismes d’aprenentatge per reforç multiagent (MARL) per al seguiment d’objectius que hem desenvolupat amb Matteo Gallici i Mario Martín (UPC), fent-los servir als vehicles autònoms de llarg abast (LRAUV) del MBARI.',
-      'De finales de agosto a mediados de diciembre de 2025, Ivan Masmitja realizó una estancia en el Monterey Bay Aquarium Research Institute (MBARI, California) gracias a una beca Fulbright. Allí probó en el mar los algoritmos de aprendizaje por refuerzo multiagente (MARL) para el seguimiento de objetivos que hemos desarrollado con Matteo Gallici y Mario Martín (UPC), utilizándolos en los vehículos autónomos de largo alcance (LRAUV) del MBARI.',
-      'From late August to mid-December 2025, Ivan Masmitja carried out a research stay at the Monterey Bay Aquarium Research Institute (MBARI, California) with a Fulbright fellowship. There he tested at sea the multi-agent reinforcement learning (MARL) algorithms for target tracking that we developed with Matteo Gallici and Mario Martín (UPC), running them on MBARI’s long-range autonomous underwater vehicles (LRAUVs).',
+      'Del 24 d’agost al 14 de desembre de 2025, Ivan Masmitja va fer una estada al Monterey Bay Aquarium Research Institute (MBARI, Califòrnia) gràcies a una beca Fulbright. Allà va provar al mar els algorismes d’aprenentatge per reforç multiagent (MARL) per al seguiment d’objectius que hem desenvolupat amb Matteo Gallici i Mario Martín (UPC), fent-los servir als vehicles autònoms de llarg abast (LRAUV) del MBARI.',
+      'Del 24 de agosto al 14 de diciembre de 2025, Ivan Masmitja realizó una estancia en el Monterey Bay Aquarium Research Institute (MBARI, California) gracias a una beca Fulbright. Allí probó en el mar los algoritmos de aprendizaje por refuerzo multiagente (MARL) para el seguimiento de objetivos que hemos desarrollado con Matteo Gallici y Mario Martín (UPC), utilizándolos en los vehículos autónomos de largo alcance (LRAUV) del MBARI.',
+      'From 24 August to 14 December 2025, Ivan Masmitja carried out a research stay at the Monterey Bay Aquarium Research Institute (MBARI, California) with a Fulbright fellowship. There he tested at sea the multi-agent reinforcement learning (MARL) algorithms for target tracking that we developed with Matteo Gallici and Mario Martín (UPC), running them on MBARI’s long-range autonomous underwater vehicles (LRAUVs).',
     ],
     links: [
       { label: 'Ivan Masmitja', url: 'https://sites.google.com/view/ivanmasmitja/home' },
