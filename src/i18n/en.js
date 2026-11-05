@@ -1,5 +1,5 @@
 export default {
-  nav: { about: 'The project', objectives: 'Objectives', approach: 'Technology', sites: 'Where we work', team: 'Team' },
+  nav: { about: 'The project', objectives: 'Objectives', approach: 'Technology', sites: 'Where we work', team: 'Team', news: 'News' },
   hero: {
     kicker: 'Research project · ICM-CSIC',
     title: 'Sentinels of the sea',
@@ -23,7 +23,7 @@ export default {
     statusSource: 'IUCN Red List',
     facts: [
       { value: '36', label: 'months' },
-      { value: '13', label: 'team members' },
+      { value: '15', label: 'team members' },
       { value: '7', label: 'work packages' },
       { value: '3', label: 'study regions' },
     ],
@@ -93,6 +93,14 @@ export default {
     label: 'Team',
     title: 'Biologists and engineers, together',
     groups: { pi: 'Principal investigators', research: 'Research team', work: 'Work team' },
+  },
+  news: {
+    label: 'News',
+    title: 'What’s happening at TECTUGA',
+    empty: 'No news yet.',
+    more: 'Read more',
+    older: 'Older news',
+    types: { event: 'Event', campaign: 'Campaign', conference: 'Conference', publication: 'Publication', outreach: 'Outreach', project: 'Project' },
   },
   footer: {
     funding: 'Project PID2024 funded by MICIU/AEI/10.13039/501100011033.',
