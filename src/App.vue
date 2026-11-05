@@ -6,6 +6,7 @@ import ObjectivesSection from './components/ObjectivesSection.vue'
 import ApproachSection from './components/ApproachSection.vue'
 import SitesSection from './components/SitesSection.vue'
 import TeamSection from './components/TeamSection.vue'
+import NewsSection from './components/NewsSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
 </script>
 
@@ -18,6 +19,7 @@ import SiteFooter from './components/SiteFooter.vue'
     <ApproachSection />
     <SitesSection />
     <TeamSection />
+    <NewsSection />
   </main>
   <SiteFooter />
 </template>
