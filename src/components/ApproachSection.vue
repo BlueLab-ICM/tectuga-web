@@ -26,7 +26,7 @@ const icons = {
 
       <div class="tracking">
         <figure>
-          <img :src="'img/asv-tracking.png'" :alt="t.approach.trackingCaption" loading="lazy" />
+          <img :src="'img/asv-tracking.png?v=2'" :alt="t.approach.trackingCaption" loading="lazy" />
           <figcaption>{{ t.approach.trackingCaption }}</figcaption>
         </figure>
         <div>
@@ -53,7 +53,7 @@ const icons = {
   display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;
   background: var(--lilac); padding: 48px; border-radius: var(--radius); margin-bottom: 80px;
 }
-.tracking img { background: var(--white); border-radius: var(--radius); }
+.tracking img { border-radius: var(--radius); }
 .tracking h3 { font-size: 30px; color: var(--ultramarine); margin-bottom: 16px; }
 
 .wp-title { font-size: 28px; color: var(--ultramarine); margin-bottom: 20px; }
