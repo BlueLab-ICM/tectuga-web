@@ -46,7 +46,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
 <style scoped>
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 article { display: flex; flex-direction: column; background: var(--lilac); border-radius: var(--radius); overflow: hidden; border-top: 3px solid var(--pink); }
-img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
 .body { padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .meta { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
 .type { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
