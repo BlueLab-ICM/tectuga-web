@@ -1,5 +1,5 @@
 export default {
-  nav: { about: 'El proyecto', objectives: 'Objetivos', approach: 'Tecnología', sites: 'Dónde trabajamos', team: 'Equipo' },
+  nav: { about: 'El proyecto', objectives: 'Objetivos', approach: 'Tecnología', sites: 'Dónde trabajamos', team: 'Equipo', news: 'Noticias' },
   hero: {
     kicker: 'Proyecto de investigación · ICM-CSIC',
     title: 'Centinelas del mar',
@@ -23,7 +23,7 @@ export default {
     statusSource: 'Lista Roja de la UICN',
     facts: [
       { value: '36', label: 'meses' },
-      { value: '13', label: 'personas en el equipo' },
+      { value: '15', label: 'personas en el equipo' },
       { value: '7', label: 'paquetes de trabajo' },
       { value: '3', label: 'regiones de estudio' },
     ],
@@ -93,6 +93,14 @@ export default {
     label: 'Equipo',
     title: 'Biólogos e ingenieros, juntos',
     groups: { pi: 'Investigadores principales', research: 'Equipo de investigación', work: 'Equipo de trabajo' },
+  },
+  news: {
+    label: 'Noticias',
+    title: 'Qué pasa en TECTUGA',
+    empty: 'Todavía no hay noticias.',
+    more: 'Más información',
+    older: 'Noticias anteriores',
+    types: { event: 'Evento', campaign: 'Campaña', conference: 'Congreso', publication: 'Publicación', outreach: 'Divulgación', project: 'Proyecto' },
   },
   footer: {
     funding: 'Proyecto PID2024 financiado por MICIU/AEI/10.13039/501100011033.',
