@@ -30,7 +30,7 @@ export default [
   },
   {
     date: '2026-07-20',
-    image: 'img/news/obsea-2026.jpg',
+    image: 'img/news/obsea-2026.jpg?v=2',
     type: 'campaign',
     title: [
       'Experiment mar endins a l’observatori OBSEA',
