@@ -30,7 +30,10 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
             </div>
             <h3>{{ n.title[i] }}</h3>
             <p>{{ n.text[i] }}</p>
-            <a v-if="n.link" :href="n.link" target="_blank" rel="noopener">{{ t.news.more }} →</a>
+            <div v-if="n.link || n.links" class="links">
+              <a v-if="n.link" :href="n.link" target="_blank" rel="noopener">{{ t.news.more }} →</a>
+              <a v-for="l in n.links || []" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.label }} →</a>
+            </div>
           </div>
         </article>
       </div>
@@ -50,7 +53,8 @@ img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
 time { font-size: 15px; color: rgba(var(--navyRGB), .7); }
 h3 { font-size: 24px; line-height: 1.2; margin: 0; color: var(--ultramarine); }
 p { margin: 0; font-size: 17px; line-height: 1.45; }
-.body a { margin-top: auto; font-weight: 600; }
+.links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.links a { font-weight: 600; }
 .empty { font-size: 18px; color: rgba(var(--navyRGB), .7); }
 .btn { margin-top: 32px; border: 1px solid var(--pink); cursor: pointer; font: inherit; }
 
