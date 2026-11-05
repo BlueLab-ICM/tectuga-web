@@ -21,5 +21,15 @@ export default {
     { name: 'Korneel Somers', photo: 'korneel-somers.jpg', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
   ],
-  partners: ['ICM-CSIC', 'UPC', 'ICATMAR', 'Fundación Oceanogràfic', 'SaveTheMed', 'ADS Biodiversidad', 'Arribada Initiative', 'University of Illinois'],
+  // Partner institutions: logo files live in public/img/logos/partners/ (optional).
+  partners: [
+    { name: 'ICM-CSIC', url: 'https://www.icm.csic.es/', logo: 'icm.png' },
+    { name: 'UPC', url: 'https://www.upc.edu/', logo: 'upc.png' },
+    { name: 'ICATMAR', url: 'https://icatmar.cat/', logo: 'icatmar.png' },
+    { name: 'Fundación Oceanogràfic', url: 'https://fundacionoceanografic.org/', logo: 'oceanografic.png' },
+    { name: 'SaveTheMed', url: 'https://www.savethemed.org/', logo: 'logo-save-the-med.png' },
+    { name: 'ADS Biodiversidad', url: 'https://adsbiodiversidad.org/', logo: 'ads.png' },
+    { name: 'Arribada Initiative', url: 'https://arribada.org/', logo: 'arribada.png' },
+    { name: 'University of Illinois', url: 'https://illinois.edu/', logo: 'illinois.png' },
+  ],
 }
