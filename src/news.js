@@ -10,6 +10,24 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
+    date: '2025-08-25',
+    type: 'project',
+    title: [
+      'Estada de recerca al MBARI amb una beca Fulbright',
+      'Estancia de investigación en el MBARI con una beca Fulbright',
+      'Research stay at MBARI with a Fulbright fellowship',
+    ],
+    text: [
+      'De finals d’agost a mitjan desembre de 2025, Ivan Masmitja va fer una estada al Monterey Bay Aquarium Research Institute (MBARI, Califòrnia) gràcies a una beca Fulbright. Allà va provar al mar els algorismes d’aprenentatge per reforç multiagent (MARL) per al seguiment d’objectius que hem desenvolupat amb Matteo Gallici i Mario Martín (UPC), fent-los servir als vehicles autònoms de llarg abast (LRAUV) del MBARI.',
+      'De finales de agosto a mediados de diciembre de 2025, Ivan Masmitja realizó una estancia en el Monterey Bay Aquarium Research Institute (MBARI, California) gracias a una beca Fulbright. Allí probó en el mar los algoritmos de aprendizaje por refuerzo multiagente (MARL) para el seguimiento de objetivos que hemos desarrollado con Matteo Gallici y Mario Martín (UPC), utilizándolos en los vehículos autónomos de largo alcance (LRAUV) del MBARI.',
+      'From late August to mid-December 2025, Ivan Masmitja carried out a research stay at the Monterey Bay Aquarium Research Institute (MBARI, California) with a Fulbright fellowship. There he tested at sea the multi-agent reinforcement learning (MARL) algorithms for target tracking that we developed with Matteo Gallici and Mario Martín (UPC), running them on MBARI’s long-range autonomous underwater vehicles (LRAUVs).',
+    ],
+    links: [
+      { label: 'Ivan Masmitja', url: 'https://sites.google.com/view/ivanmasmitja/home' },
+      { label: 'MBARI LRAUV', url: 'https://www.mbari.org/at-sea/vehicles/autonomous-underwater-vehicles/long-range-auv-tethys/' },
+    ],
+  },
+  {
     date: '2026-11-10',
     type: 'outreach',
     title: [
