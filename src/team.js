@@ -7,7 +7,7 @@ export default {
   research: [
     { name: 'Mariana Saubidet', org: 'Fundación Oceanogràfic', area: ['Veterinària · benestar animal', 'Veterinaria · bienestar animal', 'Veterinary · animal welfare'] },
     { name: 'Marta Carretón', org: 'ICATMAR', area: ['Cogestió pesquera', 'Cogestión pesquera', 'Fisheries co-management'] },
-    { name: 'Mario Martin', org: 'UPC', area: ['Intel·ligència artificial · MARL', 'Inteligencia artificial · MARL', 'Artificial intelligence · MARL'] },
+    { name: 'Mario Martin', photo: 'mario-martin.jpg', org: 'UPC', area: ['Intel·ligència artificial · MARL', 'Inteligencia artificial · MARL', 'Artificial intelligence · MARL'] },
     { name: 'Raül Bardaji', photo: 'raul-bardaji.jpg', org: 'ICM-CSIC', area: ['Enginyeria de dades · sensors marins', 'Ingeniería de datos · sensores marinos', 'Data engineering · marine sensors'] },
     { name: 'Biljana Aljinovic', org: 'SaveTheMed', area: ['Marcatge de tortugues · mar Balear', 'Marcaje de tortugas · mar Balear', 'Sea turtle tagging · Balearic Sea'] },
   ],
@@ -17,7 +17,7 @@ export default {
     { name: 'Alejandro Usategui', org: 'ADS Biodiversidad', area: ['Marcatge de tortugues · Canàries', 'Marcaje de tortugas · Canarias', 'Sea turtle tagging · Canary Islands'] },
     { name: 'Ana Liria', org: 'ADS Biodiversidad', area: ['Centre de recuperació de tortugues · Canàries', 'Centro de recuperación de tortugas · Canarias', 'Sea turtle rescue centre · Canary Islands'] },
     { name: 'Giacomo Picardi', photo: 'giacomo-picardi.jpg', org: 'ICM-CSIC · "la Caixa" Junior Leader', area: ['Robòtica marina · acceleromètria', 'Robótica marina · acelerometría', 'Marine robotics · accelerometry'] },
-    { name: 'Matteo Gallici', org: 'UPC', area: ['Aprenentatge per reforç multiagent', 'Aprendizaje por refuerzo multiagente', 'Multi-agent reinforcement learning'] },
+    { name: 'Matteo Gallici', photo: 'matteo-gallici.jpg', org: 'UPC', area: ['Aprenentatge per reforç multiagent', 'Aprendizaje por refuerzo multiagente', 'Multi-agent reinforcement learning'] },
     { name: 'Korneel Somers', photo: 'korneel-somers.jpg', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
   ],
