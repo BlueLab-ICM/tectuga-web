@@ -16,7 +16,7 @@ export default {
     { name: 'Aiman Soliman', org: 'NCSA · University of Illinois', area: ['Aprenentatge automàtic per a imatges ecològiques', 'Aprendizaje automático para imágenes ecológicas', 'Machine learning for ecological imagery'] },
     { name: 'Alejandro Usategui', org: 'ADS Biodiversidad', area: ['Marcatge de tortugues · Canàries', 'Marcaje de tortugas · Canarias', 'Sea turtle tagging · Canary Islands'] },
     { name: 'Ana Liria', org: 'ADS Biodiversidad', area: ['Centre de recuperació de tortugues · Canàries', 'Centro de recuperación de tortugas · Canarias', 'Sea turtle rescue centre · Canary Islands'] },
-    { name: 'Giacomo Picardi', org: 'Marie Skłodowska-Curie fellow', area: ['Robòtica marina · acceleromètria', 'Robótica marina · acelerometría', 'Marine robotics · accelerometry'] },
+    { name: 'Giacomo Picardi', org: 'ICM-CSIC · "la Caixa" Junior Leader', area: ['Robòtica marina · acceleromètria', 'Robótica marina · acelerometría', 'Marine robotics · accelerometry'] },
     { name: 'Matteo Gallici', org: 'UPC', area: ['Aprenentatge per reforç multiagent', 'Aprendizaje por refuerzo multiagente', 'Multi-agent reinforcement learning'] },
     { name: 'Korneel Somers', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
