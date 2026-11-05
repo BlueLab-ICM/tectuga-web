@@ -18,6 +18,8 @@ export default {
     { name: 'Ana Liria', org: 'ADS Biodiversidad', area: ['Centre de recuperació de tortugues · Canàries', 'Centro de recuperación de tortugas · Canarias', 'Sea turtle rescue centre · Canary Islands'] },
     { name: 'Giacomo Picardi', org: 'Marie Skłodowska-Curie fellow', area: ['Robòtica marina · acceleromètria', 'Robótica marina · acelerometría', 'Marine robotics · accelerometry'] },
     { name: 'Matteo Gallici', org: 'UPC', area: ['Aprenentatge per reforç multiagent', 'Aprendizaje por refuerzo multiagente', 'Multi-agent reinforcement learning'] },
+    { name: 'Korneel Somers', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
+    { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
   ],
   partners: ['ICM-CSIC', 'UPC', 'ICATMAR', 'Fundación Oceanogràfic', 'SaveTheMed', 'ADS Biodiversidad', 'Arribada Initiative', 'University of Illinois'],
 }
