@@ -18,12 +18,13 @@ export default [
       'Turtle explorers at the ICM Open House',
     ],
     text: [
-      'Del 10 al 13 de novembre participem a les Jornades de Portes Obertes de l’ICM per a ESO i batxillerat amb l’activitat «Tortugues exploradores: robots i càmeres per estudiar (i protegir) el mar». L’alumnat es compararà amb tortugues marines de mida real, veurà vídeos gravats per les tortugues amb la TurtleCam, obrirà un BlueBoat per descobrir què porta a dins i el pilotarà en un tanc d’assaig.',
-      'Del 10 al 13 de noviembre participamos en las Jornadas de Puertas Abiertas del ICM para ESO y bachillerato con la actividad «Tortugas exploradoras: robots y cámaras para estudiar (y proteger) el mar». El alumnado se comparará con tortugas marinas de tamaño real, verá vídeos grabados por las tortugas con la TurtleCam, abrirá un BlueBoat para descubrir qué lleva dentro y lo pilotará en un tanque de ensayo.',
-      'On 10–13 November we take part in the ICM Open House for secondary-school students with the activity “Turtle explorers: robots and cameras to study (and protect) the sea”. Students compare themselves with life-size sea turtles, watch videos filmed by the turtles with the TurtleCam, open up a BlueBoat to see what is inside and pilot it in a test tank.',
+      'Del 10 al 13 de novembre participem a les Jornades de Portes Obertes de l’ICM per a ESO i batxillerat amb l’activitat «Tortugues exploradores: robots i càmeres per estudiar (i protegir) el mar». L’alumnat es compararà amb tortugues marines de mida real, veurà vídeos gravats per les tortugues amb la TurtleCam, obrirà un BlueBoat per descobrir què porta a dins i el pilotarà en un tanc d’assaig. Pots descarregar el nostre pòster de tortugues a mida real (per imprimir a 150 × 200 cm).',
+      'Del 10 al 13 de noviembre participamos en las Jornadas de Puertas Abiertas del ICM para ESO y bachillerato con la actividad «Tortugas exploradoras: robots y cámaras para estudiar (y proteger) el mar». El alumnado se comparará con tortugas marinas de tamaño real, verá vídeos grabados por las tortugas con la TurtleCam, abrirá un BlueBoat para descubrir qué lleva dentro y lo pilotará en un tanque de ensayo. Puedes descargar nuestro póster de tortugas a tamaño real (para imprimir a 150 × 200 cm).',
+      'On 10–13 November we take part in the ICM Open House for secondary-school students with the activity “Turtle explorers: robots and cameras to study (and protect) the sea”. Students compare themselves with life-size sea turtles, watch videos filmed by the turtles with the TurtleCam, open up a BlueBoat to see what is inside and pilot it in a test tank. You can download our life-size turtle poster (to print at 150 × 200 cm).',
     ],
     links: [
       { label: 'ICM · Portes Obertes', url: 'https://www.icm.csic.es/ca/esdeveniment/jornades-de-portes-obertes-eso-i-batxillerat-0' },
+      { label: 'PDF', url: './files/tectuga-poster-mida-real.pdf' },
     ],
   },
   {
