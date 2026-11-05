@@ -5,7 +5,8 @@
 //   type:  'event' | 'campaign' | 'conference' | 'publication' | 'outreach' | 'project'
 //   title: [ca, es, en]
 //   text:  [ca, es, en]
-//   link:  optional URL (paper, news article, event page…)
+//   link:  optional URL, shown as “Read more”
+//   links: optional list of labelled links, e.g. [{ label: 'arXiv', url: '…' }]
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
@@ -21,9 +22,10 @@ export default [
       'Hemos presentado el póster del proyecto TECTUGA y el artículo «An adaptive open-source architecture for enhanced autonomy in BlueBoat ASVs based on ROS2» (Masmitja, Somers, Agundez y Pradell) en el congreso IEEE OCEANS 2026, en Monterey (California), del 21 al 24 de septiembre. El artículo describe la arquitectura abierta basada en ROS2 que da más autonomía a nuestros BlueBoats.',
       'We presented the TECTUGA project poster and the paper “An adaptive open-source architecture for enhanced autonomy in BlueBoat ASVs based on ROS2” (Masmitja, Somers, Agundez and Pradell) at IEEE OCEANS 2026 in Monterey, California, on 21–24 September. The paper describes the open ROS2-based architecture that gives our BlueBoats more autonomy.',
     ],
+    links: [{ label: 'OCEANS 2026', url: 'https://monterey26.oceansconference.org/' }],
   },
   {
-    date: '2026-06-01',
+    date: '2026-06-03',
     type: 'conference',
     title: [
       'Article a ICRA 2026, Viena',
@@ -35,7 +37,10 @@ export default [
       'Hemos presentado «Scaling Multi-Agent Reinforcement Learning for Underwater Acoustic Tracking via Autonomous Vehicles» (Gallici, Masmitja y Martín) en el IEEE ICRA 2026 de Viena. Un simulador acelerado por GPU, hasta 30.000 veces más rápido que Gazebo, y una arquitectura basada en Transformers permiten entrenar flotas de vehículos que siguen varios objetivos rápidos con errores inferiores a 5 m.',
       'We presented “Scaling Multi-Agent Reinforcement Learning for Underwater Acoustic Tracking via Autonomous Vehicles” (Gallici, Masmitja and Martín) at IEEE ICRA 2026 in Vienna. A GPU-accelerated simulator, up to 30,000× faster than Gazebo, and a Transformer-based architecture let us train vehicle fleets that track several fast-moving targets with errors below 5 m.',
     ],
-    link: 'https://2026.ieee-icra.org/',
+    links: [
+      { label: 'arXiv', url: 'https://arxiv.org/abs/2505.08222' },
+      { label: 'ICRA 2026', url: 'https://2026.ieee-icra.org/' },
+    ],
   },
   {
     date: '2026-11-05',
