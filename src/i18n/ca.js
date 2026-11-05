@@ -1,5 +1,5 @@
 export default {
-  nav: { about: 'El projecte', objectives: 'Objectius', approach: 'Tecnologia', sites: 'On treballem', team: 'Equip' },
+  nav: { about: 'El projecte', objectives: 'Objectius', approach: 'Tecnologia', sites: 'On treballem', team: 'Equip', news: 'Notícies' },
   hero: {
     kicker: 'Projecte de recerca · ICM-CSIC',
     title: 'Sentinelles del mar',
@@ -23,7 +23,7 @@ export default {
     statusSource: 'Llista Vermella de la UICN',
     facts: [
       { value: '36', label: 'mesos' },
-      { value: '13', label: 'persones a l’equip' },
+      { value: '15', label: 'persones a l’equip' },
       { value: '7', label: 'paquets de treball' },
       { value: '3', label: 'regions d’estudi' },
     ],
@@ -93,6 +93,14 @@ export default {
     label: 'Equip',
     title: 'Biòlegs i enginyers, junts',
     groups: { pi: 'Investigadors principals', research: 'Equip de recerca', work: 'Equip de treball' },
+  },
+  news: {
+    label: 'Notícies',
+    title: 'Què passa a TECTUGA',
+    empty: 'Encara no hi ha notícies.',
+    more: 'Més informació',
+    older: 'Notícies anteriors',
+    types: { event: 'Esdeveniment', campaign: 'Campanya', conference: 'Congrés', publication: 'Publicació', outreach: 'Divulgació', project: 'Projecte' },
   },
   footer: {
     funding: 'Projecte PID2024 finançat per MICIU/AEI/10.13039/501100011033.',
