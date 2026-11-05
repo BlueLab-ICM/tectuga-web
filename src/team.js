@@ -28,7 +28,7 @@ export default {
     { name: 'ICATMAR', url: 'https://icatmar.cat/', logo: 'icatmar.png' },
     { name: 'Fundación Oceanogràfic', url: 'https://fundacionoceanografic.org/', logo: 'oceanografic.png' },
     { name: 'SaveTheMed', url: 'https://www.savethemed.org/', logo: 'logo-save-the-med.png' },
-    { name: 'ADS Biodiversidad', url: 'https://adsbiodiversidad.org/', logo: 'ads.png' },
+    { name: 'ADS Biodiversidad', url: 'https://tortugascanarias.com/ads-biodiversidad/', logo: 'ads.png' },
     { name: 'Arribada Initiative', url: 'https://arribada.org/', logo: 'arribada.png' },
     { name: 'University of Illinois', url: 'https://illinois.edu/', logo: 'illinois.png' },
   ],
