@@ -2,7 +2,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { t, lang, languages, setLang } from '../i18n'
 
-const sections = ['about', 'objectives', 'approach', 'sites', 'team']
+const sections = ['about', 'objectives', 'approach', 'sites', 'team', 'news']
 const scrolled = ref(false)
 const open = ref(false)
 const active = ref('')
