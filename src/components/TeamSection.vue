@@ -15,7 +15,8 @@ const initials = (name) => name.split(' ').filter((w) => /^[A-ZÀ-Ý]/.test(w)).
         <h3>{{ t.team.groups[g] }}</h3>
         <ul :class="{ pis: g === 'pi' }">
           <li v-for="m in team[g]" :key="m.name">
-            <span class="avatar">{{ initials(m.name) }}</span>
+            <img v-if="m.photo" class="avatar" :src="'./img/team/' + m.photo" :alt="m.name" loading="lazy" />
+            <span v-else class="avatar">{{ initials(m.name) }}</span>
             <div>
               <strong>{{ m.name }}</strong>
               <span class="org">{{ m.org }}</span>
@@ -42,6 +43,7 @@ li { display: flex; gap: 16px; align-items: center; background: var(--white); pa
   display: grid; place-items: center;
   background: var(--navy); color: var(--white); font-weight: 600; letter-spacing: .05em;
 }
+img.avatar { object-fit: cover; background: var(--lilac); }
 .pis .avatar { background: var(--pink); width: 64px; height: 64px; font-size: 22px; }
 .pis strong { font-size: 24px; }
 strong { display: block; font-size: 19px; line-height: 1.2; }
