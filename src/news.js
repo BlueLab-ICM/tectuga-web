@@ -10,6 +10,21 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
+    date: '2026-11-06',
+    image: 'img/news/blueboat-espai-vela-nov2026.jpg',
+    type: 'campaign',
+    title: [
+      'Nova prova del BlueBoat a l’Espai Vela',
+      'Nueva prueba del BlueBoat en el Espai Vela',
+      'New BlueBoat test at Espai Vela',
+    ],
+    text: [
+      'Korneel Somers i Pedro Agundez han tornat a l’Espai Vela de la Facultat de Nàutica de Barcelona (FNB-UPC), al port de Barcelona, per provar amb el BlueBoat el darrer algorisme que hem desenvolupat per localitzar boies de superfície. La prova es va fer en col·laboració amb el Prof. Matias Carandell, de la FNB-UPC.',
+      'Korneel Somers y Pedro Agundez han vuelto al Espai Vela de la Facultat de Nàutica de Barcelona (FNB-UPC), en el puerto de Barcelona, para probar con el BlueBoat el último algoritmo que hemos desarrollado para localizar boyas de superficie. La prueba se hizo en colaboración con el Prof. Matias Carandell, de la FNB-UPC.',
+      'Korneel Somers and Pedro Agundez went back to the Espai Vela of the Barcelona School of Nautical Studies (FNB-UPC), in Barcelona harbour, to test with the BlueBoat the latest algorithm we have developed to locate surface buoys. The test was carried out together with Prof. Matias Carandell from FNB-UPC.',
+    ],
+  },
+  {
     date: '2026-07-22',
     image: 'img/news/espai-vela-blueboat.jpg',
     type: 'campaign',
