@@ -23,7 +23,8 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
       <div class="grid">
         <article v-for="n in visible" :id="'news-' + n.date" :key="n.date + n.title[2]">
           <div v-if="n.video" class="video">
-            <iframe :src="n.video" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Video"></iframe>
+            <video v-if="!/^https?:/.test(n.video)" :src="'./' + n.video" :poster="n.poster ? './' + n.poster : undefined" controls playsinline preload="metadata"></video>
+            <iframe v-else :src="n.video" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Video"></iframe>
           </div>
           <div v-if="n.images" class="gallery">
             <img v-for="src in n.images" :key="src" :src="'./' + src" alt="" loading="lazy" />
@@ -54,6 +55,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
 article { scroll-margin-top: calc(var(--header-h) + 16px); display: flex; flex-direction: column; background: var(--lilac); border-radius: var(--radius); overflow: hidden; border-top: 3px solid var(--pink); }
 img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
 .video { position: relative; aspect-ratio: 16 / 9; background: var(--navy, #0b1b3f); }
+.video video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .body { padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
