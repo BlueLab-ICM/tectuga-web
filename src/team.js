@@ -20,7 +20,7 @@ export default {
     { name: 'Matteo Gallici', photo: 'matteo-gallici.jpg', org: 'UPC', area: ['Enginyer d’IA · doctorat en aprenentatge per reforç multiagent', 'Ingeniero de IA · doctorado en aprendizaje por refuerzo multiagente', 'AI engineer · PhD on multi-agent reinforcement learning'] },
     { name: 'Korneel Somers', photo: 'korneel-somers.jpg', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
-    { name: 'Ruth Doñate', photo: 'ruth-donate.jpg', org: 'ICM-CSIC', area: ['Biòloga marina · doctorat amb imatges de càmeres en animals', 'Bióloga marina · doctorado con imágenes de cámaras en animales', 'Marine biologist · PhD on animal-borne camera imagery'] },
+    { name: 'Ruth Doñate-Ordoñez', photo: 'ruth-donate.jpg', org: 'ICM-CSIC', area: ['Biòloga marina · doctorat amb imatges de càmeres en animals', 'Bióloga marina · doctorado con imágenes de cámaras en animales', 'Marine biologist · PhD on animal-borne camera imagery'] },
   ],
   // Partner institutions: logo files live in public/img/logos/partners/ (optional).
   partners: [
