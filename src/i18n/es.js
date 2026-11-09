@@ -96,6 +96,9 @@ export default {
   },
   news: {
     label: 'Noticias',
+    latest: 'Últimas noticias',
+    all: 'Todas las noticias',
+    new: 'Nuevo',
     title: 'Qué pasa en TECTUGA',
     empty: 'Todavía no hay noticias.',
     more: 'Más información',
