@@ -23,7 +23,7 @@ export default {
     statusSource: 'IUCN Red List',
     facts: [
       { value: '36', label: 'months' },
-      { value: '15', label: 'team members' },
+      { value: '16', label: 'team members' },
       { value: '7', label: 'work packages' },
       { value: '3', label: 'study regions' },
     ],
