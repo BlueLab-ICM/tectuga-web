@@ -1,11 +1,24 @@
 <script setup>
-import { t } from '../i18n'
+import { computed } from 'vue'
+import { t, lang, languages } from '../i18n'
+import news from '../news.js'
+
+// Newest news item, shown as a headline bar on the first screen
+const i = computed(() => languages.indexOf(lang.value))
+const newest = computed(() => [...news].sort((a, b) => b.date.localeCompare(a.date))[0])
+const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { day: 'numeric', month: 'short' })
 </script>
 
 <template>
   <section id="top" class="hero">
     <div class="container grid">
       <div class="text">
+        <a v-if="newest" class="headline" :href="'#news-' + newest.date">
+          <span class="tag">{{ t.news.new }}</span>
+          <time :datetime="newest.date">{{ fmt(newest.date) }}</time>
+          <span class="htitle">{{ newest.title[i] }}</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
         <p class="kicker">{{ t.hero.kicker }}</p>
         <h1><span class="acronym">TECTUGA</span>{{ t.hero.title }}</h1>
         <p class="subtitle">{{ t.hero.subtitle }}</p>
@@ -102,6 +115,22 @@ import { t } from '../i18n'
   overflow: hidden;
 }
 .grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 40px; width: 100%; }
+
+.headline {
+  display: inline-flex; align-items: center; gap: 10px; max-width: 100%;
+  margin-bottom: 28px; padding: 6px 14px 6px 6px;
+  background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .25); border-radius: 999px;
+  color: var(--white); text-decoration: none; font-size: 15px; transition: background .2s;
+}
+.headline:hover { background: rgba(255, 255, 255, .18); color: var(--white); }
+.headline .tag {
+  flex: none; padding: 3px 10px; border-radius: 999px; background: var(--pink);
+  font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+}
+.headline time { flex: none; opacity: .75; }
+.headline .htitle { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.headline .arrow { flex: none; transition: translate .2s; }
+.headline:hover .arrow { translate: 3px 0; }
 
 .kicker {
   font-size: 15px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase;
