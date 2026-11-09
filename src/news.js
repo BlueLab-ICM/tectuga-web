@@ -10,6 +10,55 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
+    date: '2026-07-28',
+    image: 'img/news/jembe-2026-turtlecam.jpg',
+    type: 'publication',
+    title: [
+      'Com afecta un bio-registrador el benestar de les tortugues?',
+      '¿Cómo afecta un bio-registrador al bienestar de las tortugas?',
+      'How do bio-loggers affect turtle welfare?',
+    ],
+    text: [
+      'Nou article a Journal of Experimental Marine Biology and Ecology (Pingitore, Crespo-Picazo, Romeo, Tallo-Parra, Chatzievangelou i Robinson). En un experiment de tres dies amb 10 tortugues babaues i 7 tortugues verdes en captivitat, a la Fundación Oceanogràfic, s’hi van separar els efectes de la manipulació dels de portar una TurtleCam enganxada a la closca. Les babaues van nedar més després de ser manipulades, però portar la càmera no els va canviar el comportament; les verdes, en canvi, es van gratar més mentre la duien i la retirada de l’epoxi els va causar petites lesions a la closca. Imatge: fig. 2 de l’article (CC BY 4.0).',
+      'Nuevo artículo en Journal of Experimental Marine Biology and Ecology (Pingitore, Crespo-Picazo, Romeo, Tallo-Parra, Chatzievangelou y Robinson). En un experimento de tres días con 10 tortugas bobas y 7 tortugas verdes en cautividad, en la Fundación Oceanogràfic, se separaron los efectos de la manipulación de los de llevar una TurtleCam pegada al caparazón. Las bobas nadaron más tras ser manipuladas, pero llevar la cámara no cambió su comportamiento; las verdes, en cambio, se rascaron más mientras la llevaban y la retirada del epoxi les causó pequeñas lesiones en el caparazón. Imagen: fig. 2 del artículo (CC BY 4.0).',
+      'New paper in the Journal of Experimental Marine Biology and Ecology (Pingitore, Crespo-Picazo, Romeo, Tallo-Parra, Chatzievangelou and Robinson). In a three-day experiment with 10 loggerhead and 7 green turtles in captivity at Fundación Oceanogràfic, the study separated the effects of handling from those of carrying a TurtleCam glued to the shell. Loggerheads swam more after handling, but carrying the camera did not change their behaviour; green turtles, instead, scratched and groomed more while tagged, and removing the epoxy left small shell lesions. Image: Fig. 2 of the paper (CC BY 4.0).',
+    ],
+    links: [{ label: 'DOI · JEMBE 603:152217', url: 'https://doi.org/10.1016/j.jembe.2026.152217' }],
+  },
+  {
+    date: '2026-06-10',
+    image: 'img/news/jeb-2026-breathing-vit.jpg',
+    type: 'publication',
+    title: [
+      'Intel·ligència artificial per detectar quan respiren les tortugues',
+      'Inteligencia artificial para detectar cuándo respiran las tortugas',
+      'AI to detect when sea turtles breathe',
+    ],
+    text: [
+      'Nou article a Journal of Experimental Biology (Robinson, Mazumdar, Allan, Aguzzi, Chen, Hsieh, Millet, Tomás, Terstriep i Soliman). Hem comparat diversos models d’aprenentatge automàtic per trobar les respiracions als vídeos de càmeres col·locades a tortugues verdes. El millor, un Vision Transformer, encerta el 97% dels fotogrames i troba gairebé totes les respiracions, tot i que encara dona falsos positius. No ho automatitza del tot, però redueix molt les hores de vídeo que cal revisar a mà. Imatge: fig. 2 de l’article, amb els mapes d’atenció del model (CC BY 4.0).',
+      'Nuevo artículo en Journal of Experimental Biology (Robinson, Mazumdar, Allan, Aguzzi, Chen, Hsieh, Millet, Tomás, Terstriep y Soliman). Hemos comparado varios modelos de aprendizaje automático para encontrar las respiraciones en los vídeos de cámaras colocadas en tortugas verdes. El mejor, un Vision Transformer, acierta el 97% de los fotogramas y encuentra casi todas las respiraciones, aunque todavía da falsos positivos. No lo automatiza del todo, pero reduce mucho las horas de vídeo que hay que revisar a mano. Imagen: fig. 2 del artículo, con los mapas de atención del modelo (CC BY 4.0).',
+      'New paper in the Journal of Experimental Biology (Robinson, Mazumdar, Allan, Aguzzi, Chen, Hsieh, Millet, Tomás, Terstriep and Soliman). We compared several machine-learning models for finding breaths in footage from cameras fitted on green turtles. The best one, a Vision Transformer, classifies 97% of frames correctly and catches almost every breath, although it still gives false positives. It does not fully automate the task yet, but it greatly cuts the hours of video that must be checked by hand. Image: Fig. 2 of the paper, with the model’s attention maps (CC BY 4.0).',
+    ],
+    links: [{ label: 'DOI · J Exp Biol 229:jeb251688', url: 'https://doi.org/10.1242/jeb.251688' }],
+  },
+  {
+    date: '2026-03-02',
+    image: 'img/news/44_ISTS_Symp_Logo.png',
+    imageFit: 'contain',
+    type: 'conference',
+    title: [
+      'Taller d’aprenentatge automàtic a l’ISTS 2026, Hawaii',
+      'Taller de aprendizaje automático en el ISTS 2026, Hawái',
+      'Machine-learning workshop at ISTS 2026, Hawai‘i',
+    ],
+    text: [
+      'Nathan J. Robinson va coorganitzar, amb Matthew Lettrich i Christopher Long, el taller «Machine learning in sea turtle science and conservation: recent developments and future opportunities» al 44è International Sea Turtle Symposium, a Kailua-Kona (Hawaii), el 2 de març. El taller va reunir persones que ja fan servir eines d’aprenentatge automàtic i d’altres que volen començar-hi, amb l’objectiu de conèixer les necessitats de la comunitat, crear una comunitat de pràctica i definir línies de col·laboració en òptica, telemetria i teledetecció.',
+      'Nathan J. Robinson coorganizó, con Matthew Lettrich y Christopher Long, el taller «Machine learning in sea turtle science and conservation: recent developments and future opportunities» en el 44.º International Sea Turtle Symposium, en Kailua-Kona (Hawái), el 2 de marzo. El taller reunió a personas que ya usan herramientas de aprendizaje automático y a otras que quieren empezar, con el objetivo de conocer las necesidades de la comunidad, crear una comunidad de práctica y definir líneas de colaboración en óptica, telemetría y teledetección.',
+      'Nathan J. Robinson co-organised, with Matthew Lettrich and Christopher Long, the workshop “Machine learning in sea turtle science and conservation: recent developments and future opportunities” at the 44th International Sea Turtle Symposium in Kailua-Kona, Hawai‘i, on 2 March. It brought together people already using machine-learning tools and others keen to start, to map the community’s needs, build a community of practice and set out collaboration paths in optics, telemetry and remote sensing.',
+    ],
+    links: [{ label: 'ISTS 44 · Workshops', url: 'https://www.ists-symposium44.org/workshops-meetings' }],
+  },
+  {
     date: '2026-09-15',
     image: 'img/news/balear-2026-tortuga.jpg',
     images: ['img/news/balear-2026-tortuga.jpg', 'img/news/balear-2026-equip.jpg'],
