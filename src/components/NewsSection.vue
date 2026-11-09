@@ -21,7 +21,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
       <p v-if="!news.length" class="empty">{{ t.news.empty }}</p>
 
       <div class="grid">
-        <article v-for="n in visible" :key="n.date + n.title[2]">
+        <article v-for="n in visible" :id="'news-' + n.date" :key="n.date + n.title[2]">
           <img v-if="n.image" :src="'./' + n.image" alt="" loading="lazy" />
           <div class="body">
             <div class="meta">
@@ -45,7 +45,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
 
 <style scoped>
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
-article { display: flex; flex-direction: column; background: var(--lilac); border-radius: var(--radius); overflow: hidden; border-top: 3px solid var(--pink); }
+article { scroll-margin-top: calc(var(--header-h) + 16px); display: flex; flex-direction: column; background: var(--lilac); border-radius: var(--radius); overflow: hidden; border-top: 3px solid var(--pink); }
 img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
 .body { padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .meta { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
