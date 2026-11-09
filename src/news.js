@@ -10,6 +10,24 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
+    date: '2026-09-15',
+    image: 'img/news/balear-2026-tortuga.jpg',
+    images: ['img/news/balear-2026-tortuga.jpg', 'img/news/balear-2026-equip.jpg'],
+    video: 'https://drive.google.com/file/d/1eH2ckhr-pTB3xTpadAkBZ5ifGrMVH_2I/preview',
+    type: 'campaign',
+    title: [
+      'Primers vídeos de tortugues babaues al Mar Balear',
+      'Primeros vídeos de tortugas bobas en el mar Balear',
+      'First loggerhead turtle videos from the Balearic Sea',
+    ],
+    text: [
+      'Al setembre vam anar al Mar Balear per col·locar uns prototips de càmera a tortugues babaues (Caretta caretta). Aquesta campanya ens ha permès recollir els primers vídeos del projecte, on es pot observar el comportament d’aquestes tortugues en mar obert. Addicionalment, ens ha permès desenvolupar millores en les càmeres perquè compleixin els nostres propòsits dins del pressupost inicial. Ben aviat podrem col·locar un nou prototip a les Illes Canàries.',
+      'En septiembre fuimos al mar Balear para colocar unos prototipos de cámara en tortugas bobas (Caretta caretta). Esta campaña nos ha permitido recoger los primeros vídeos del proyecto, en los que se puede observar el comportamiento de estas tortugas en mar abierto. Además, nos ha permitido mejorar las cámaras para que cumplan nuestros objetivos dentro del presupuesto inicial. Dentro de poco podremos colocar un nuevo prototipo en las islas Canarias.',
+      'In September we went to the Balearic Sea to fit camera prototypes on loggerhead turtles (Caretta caretta). This campaign gave us the project’s first videos, showing how these turtles behave in the open sea. It also helped us improve the cameras so that they meet our goals within the initial budget. Soon we will be able to deploy a new prototype in the Canary Islands.',
+    ],
+    links: [{ label: 'Video · Google Drive', url: 'https://drive.google.com/file/d/1eH2ckhr-pTB3xTpadAkBZ5ifGrMVH_2I/view' }],
+  },
+  {
     date: '2026-11-06',
     image: 'img/news/blueboat-espai-vela-nov2026.jpg',
     type: 'campaign',
