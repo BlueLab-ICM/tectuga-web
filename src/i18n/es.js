@@ -23,7 +23,7 @@ export default {
     statusSource: 'Lista Roja de la UICN',
     facts: [
       { value: '36', label: 'meses' },
-      { value: '15', label: 'personas en el equipo' },
+      { value: '16', label: 'personas en el equipo' },
       { value: '7', label: 'paquetes de trabajo' },
       { value: '3', label: 'regiones de estudio' },
     ],
