@@ -29,7 +29,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
           <div v-if="n.images" class="gallery">
             <img v-for="src in n.images" :key="src" :src="'./' + src" alt="" loading="lazy" />
           </div>
-          <img v-else-if="n.image" :src="'./' + n.image" alt="" loading="lazy" />
+          <img v-else-if="n.image" :src="'./' + n.image" :class="{ contain: n.imageFit === 'contain' }" alt="" loading="lazy" />
           <div class="body">
             <div class="meta">
               <span class="type">{{ t.news.types[n.type] || n.type }}</span>
@@ -54,6 +54,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 article { scroll-margin-top: calc(var(--header-h) + 16px); display: flex; flex-direction: column; background: var(--lilac); border-radius: var(--radius); overflow: hidden; border-top: 3px solid var(--pink); }
 img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+img.contain { object-fit: contain; padding: 16px; box-sizing: border-box; }
 .video { position: relative; aspect-ratio: 16 / 9; background: var(--navy, #0b1b3f); }
 .video video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
