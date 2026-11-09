@@ -23,7 +23,7 @@ export default {
     statusSource: 'Llista Vermella de la UICN',
     facts: [
       { value: '36', label: 'mesos' },
-      { value: '15', label: 'persones a l’equip' },
+      { value: '16', label: 'persones a l’equip' },
       { value: '7', label: 'paquets de treball' },
       { value: '3', label: 'regions d’estudi' },
     ],
