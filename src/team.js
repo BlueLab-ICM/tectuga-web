@@ -17,7 +17,7 @@ export default {
     { name: 'Alejandro Usategui', org: 'ADS Biodiversidad', area: ['Marcatge de tortugues · Canàries', 'Marcaje de tortugas · Canarias', 'Sea turtle tagging · Canary Islands'] },
     { name: 'Ana Liria', org: 'ADS Biodiversidad', area: ['Centre de recuperació de tortugues · Canàries', 'Centro de recuperación de tortugas · Canarias', 'Sea turtle rescue centre · Canary Islands'] },
     { name: 'Giacomo Picardi', photo: 'giacomo-picardi.jpg', org: 'ICM-CSIC · "la Caixa" Junior Leader', area: ['Robòtica marina · acceleromètria', 'Robótica marina · acelerometría', 'Marine robotics · accelerometry'] },
-    { name: 'Matteo Gallici', photo: 'matteo-gallici.jpg', org: 'UPC', area: ['Aprenentatge per reforç multiagent', 'Aprendizaje por refuerzo multiagente', 'Multi-agent reinforcement learning'] },
+    { name: 'Matteo Gallici', photo: 'matteo-gallici.jpg', org: 'UPC', area: ['Enginyer d’IA · doctorat en aprenentatge per reforç multiagent', 'Ingeniero de IA · doctorado en aprendizaje por refuerzo multiagente', 'AI engineer · PhD on multi-agent reinforcement learning'] },
     { name: 'Korneel Somers', photo: 'korneel-somers.jpg', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
     { name: 'Ruth Doñate', photo: 'ruth-donate.jpg', org: 'ICM-CSIC', area: ['Biòloga marina · doctorat amb imatges de càmeres en animals', 'Bióloga marina · doctorado con imágenes de cámaras en animales', 'Marine biologist · PhD on animal-borne camera imagery'] },
