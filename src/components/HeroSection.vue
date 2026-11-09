@@ -115,6 +115,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
   overflow: hidden;
 }
 .grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 40px; width: 100%; }
+.text { min-width: 0; }
 
 .headline {
   display: inline-flex; align-items: center; gap: 10px; max-width: 100%;
@@ -168,5 +169,11 @@ h1 { font-size: clamp(40px, 5.6vw, 76px); font-weight: 700; margin-bottom: 24px;
   .grid { grid-template-columns: 1fr; }
   .art { max-width: 320px; order: -1; }
   .scroll { display: none; }
+}
+/* phones: shorter headline bar, title on up to two lines */
+@media (max-width: 600px) {
+  .headline { display: flex; gap: 8px; font-size: 14px; border-radius: 18px; padding: 6px 12px 6px 6px; margin-bottom: 22px; }
+  .headline time { display: none; }
+  .headline .htitle { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.3; }
 }
 </style>
