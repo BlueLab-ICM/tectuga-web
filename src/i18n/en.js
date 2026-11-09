@@ -96,6 +96,9 @@ export default {
   },
   news: {
     label: 'News',
+    latest: 'Latest news',
+    all: 'All news',
+    new: 'New',
     title: 'What’s happening at TECTUGA',
     empty: 'No news yet.',
     more: 'Read more',
