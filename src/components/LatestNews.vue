@@ -18,7 +18,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
         <a href="#news" class="all">{{ t.news.all }} →</a>
       </div>
       <div class="cards">
-        <a v-for="n in latest" :key="n.date + n.title[2]" class="card" :href="'#news-' + n.date">
+        <a v-for="n in latest" :key="n.date + n.title[2]" class="card" :href="'#news-' + (n.id || n.date)">
           <img v-if="n.image" :src="'./' + n.image" alt="" loading="lazy" />
           <div class="body">
             <div class="meta">
