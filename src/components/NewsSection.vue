@@ -26,7 +26,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
             <video v-if="!/^https?:/.test(n.video)" :src="'./' + n.video" :poster="n.poster ? './' + n.poster : undefined" controls playsinline preload="metadata"></video>
             <iframe v-else :src="n.video" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Video"></iframe>
           </div>
-          <div v-if="n.images" class="gallery">
+          <div v-if="n.images" class="gallery" :class="{ stack: n.imagesLayout === 'stack' }">
             <img v-for="src in n.images" :key="src" :src="'./' + src" alt="" loading="lazy" />
           </div>
           <img v-else-if="n.image" :src="'./' + n.image" :class="{ contain: n.imageFit === 'contain' }" alt="" loading="lazy" />
@@ -59,6 +59,8 @@ img.contain { object-fit: contain; padding: 16px; box-sizing: border-box; }
 .video video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.gallery.stack { grid-template-columns: 1fr; }
+.gallery.stack img { aspect-ratio: auto; height: auto; }
 .body { padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .meta { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
 .type { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
