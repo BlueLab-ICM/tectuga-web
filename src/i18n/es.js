@@ -87,7 +87,10 @@ export default {
       { region: 'Islas Canarias', species: 'Tortuga verde y tortuga boba', places: ['Playa de El Pajar, Gran Canaria', 'Bahía de Abades, Tenerife', 'ZEC Franja marina de Teno-Rasca, Tenerife'], text: 'Dos campañas de marcaje de 10 días al año con ADS Biodiversidad.' },
       { region: 'Mar Balear', species: 'Tortuga boba', places: ['Expediciones a bordo del Bonnie Lass'], text: 'Dos campañas de marcaje al año con SaveTheMed.' },
       { region: 'Barcelona', species: 'Tecnología', places: ['Laboratorio de Ingeniería Oceanográfica del ICM-CSIC', 'Aguas costeras de Barcelona'], text: 'Desarrollo y pruebas en el mar de la flota de ASV y de los algoritmos de seguimiento.' },
+      { region: 'València', species: 'Pruebas de cámaras', places: ['Fundación Oceanogràfic, València'], text: 'Usamos sus instalaciones para probar las cámaras que llevan las tortugas.' },
     ],
+    mapLabel: 'Mapa de los lugares de estudio de TECTUGA: Islas Canarias, mar Balear, Barcelona y València',
+    legend: { turtle: 'Experimentos con tortugas marinas', asv: 'Experimentos con ASV' },
   },
   team: {
     label: 'Equipo',
