@@ -21,7 +21,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
       <p v-if="!news.length" class="empty">{{ t.news.empty }}</p>
 
       <div class="grid">
-        <article v-for="n in visible" :id="'news-' + n.date" :key="n.date + n.title[2]">
+        <article v-for="n in visible" :id="'news-' + (n.id || n.date)" :key="n.date + n.title[2]">
           <div v-if="n.video" class="video">
             <video v-if="!/^https?:/.test(n.video)" :src="'./' + n.video" :poster="n.poster ? './' + n.poster : undefined" controls playsinline preload="metadata"></video>
             <iframe v-else :src="n.video" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Video"></iframe>
