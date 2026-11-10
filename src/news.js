@@ -150,6 +150,7 @@ export default [
     id: '2026-11-10-visita',
     image: 'img/news/portes-obertes-2026-equip.jpg',
     images: ['img/news/portes-obertes-2026-equip.jpg', 'img/news/portes-obertes-2026-visita.jpg'],
+    imagesLayout: 'stack',
     type: 'outreach',
     title: [
       'Primera visita d’alumnes de 4t d’ESO a l’ICM',
