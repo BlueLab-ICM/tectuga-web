@@ -87,7 +87,10 @@ export default {
       { region: 'Illes Canàries', species: 'Tortuga verda i tortuga babaua', places: ['Platja d’El Pajar, Gran Canària', 'Badia d’Abades, Tenerife', 'ZEC Franja marina de Teno-Rasca, Tenerife'], text: 'Dues campanyes de marcatge de 10 dies l’any amb ADS Biodiversidad.' },
       { region: 'Mar Balear', species: 'Tortuga babaua', places: ['Expedicions a bord del Bonnie Lass'], text: 'Dues campanyes de marcatge l’any amb SaveTheMed.' },
       { region: 'Barcelona', species: 'Tecnologia', places: ['Laboratori d’Enginyeria Oceanogràfica de l’ICM-CSIC', 'Aigües costaneres de Barcelona'], text: 'Desenvolupament i proves al mar de la flota d’ASV i dels algorismes de seguiment.' },
+      { region: 'València', species: 'Proves de càmeres', places: ['Fundación Oceanogràfic, València'], text: 'Fem servir les seves instal·lacions per provar les càmeres que porten les tortugues.' },
     ],
+    mapLabel: 'Mapa dels llocs d’estudi de TECTUGA: Illes Canàries, mar Balear, Barcelona i València',
+    legend: { turtle: 'Experiments amb tortugues marines', asv: 'Experiments amb ASV' },
   },
   team: {
     label: 'Equip',
