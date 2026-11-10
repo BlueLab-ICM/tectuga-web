@@ -148,8 +148,8 @@ export default [
   {
     date: '2026-11-10',
     id: '2026-11-10-visita',
-    image: 'img/news/portes-obertes-2026-equip.jpg',
-    images: ['img/news/portes-obertes-2026-equip.jpg', 'img/news/portes-obertes-2026-visita.jpg'],
+    image: 'img/news/portes-obertes-2026-equip.jpg?v=2',
+    images: ['img/news/portes-obertes-2026-equip.jpg?v=2', 'img/news/portes-obertes-2026-visita.jpg?v=2'],
     imagesLayout: 'stack',
     type: 'outreach',
     title: [
