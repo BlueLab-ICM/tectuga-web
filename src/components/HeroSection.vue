@@ -13,7 +13,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(lang.value, { da
   <section id="top" class="hero">
     <div class="container grid">
       <div class="text">
-        <a v-if="newest" class="headline" :href="'#news-' + newest.date">
+        <a v-if="newest" class="headline" :href="'#news-' + (newest.id || newest.date)">
           <span class="tag">{{ t.news.new }}</span>
           <time :datetime="newest.date">{{ fmt(newest.date) }}</time>
           <span class="htitle">{{ newest.title[i] }}</span>
