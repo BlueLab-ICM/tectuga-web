@@ -1,5 +1,6 @@
 <script setup>
 import { t } from '../i18n'
+import SitesMap from './SitesMap.vue'
 </script>
 
 <template>
@@ -7,6 +8,8 @@ import { t } from '../i18n'
     <div class="container">
       <span class="label">{{ t.sites.label }}</span>
       <h2 class="section-title">{{ t.sites.title }}</h2>
+
+      <SitesMap />
 
       <div class="grid">
         <article v-for="(s, i) in t.sites.items" :key="i">
@@ -27,16 +30,21 @@ import { t } from '../i18n'
 .sites { background: var(--navy); color: var(--white); }
 .sites .section-title { color: var(--white); }
 .sites .label { color: var(--teal); }
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(255, 255, 255, .15); }
-article { background: var(--navy); padding: 32px 32px 32px 0; }
-article + article { padding-left: 32px; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background: rgba(255, 255, 255, .15); }
+article { background: var(--navy); padding: 28px 24px 28px 0; }
+article + article { padding-left: 24px; }
 .num { font-size: 15px; font-weight: 700; letter-spacing: .14em; color: var(--pink); }
-h3 { font-size: 34px; margin: 8px 0 6px; }
+h3 { font-size: 30px; margin: 8px 0 6px; }
 .species { font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); }
 ul { padding-left: 18px; margin: 0 0 16px; }
 li { margin-bottom: 4px; }
 li::marker { color: var(--pink); }
 .text { opacity: .8; font-size: 17px; margin: 0; }
+
+@media (max-width: 1100px) and (min-width: 861px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  article:nth-child(3) { padding-left: 0; }
+}
 
 @media (max-width: 860px) {
   .grid { grid-template-columns: 1fr; background: none; }
