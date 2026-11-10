@@ -147,6 +147,23 @@ export default [
   },
   {
     date: '2026-11-10',
+    id: '2026-11-10-visita',
+    image: 'img/news/portes-obertes-2026-equip.jpg',
+    images: ['img/news/portes-obertes-2026-equip.jpg', 'img/news/portes-obertes-2026-visita.jpg'],
+    type: 'outreach',
+    title: [
+      'Primera visita d’alumnes de 4t d’ESO a l’ICM',
+      'Primera visita de alumnos de 4.º de ESO al ICM',
+      'First visit of secondary-school students to ICM',
+    ],
+    text: [
+      'Avui hem rebut la primera visita d’alumnes de 4t d’ESO de diferents escoles de l’entorn de l’ICM, on hem presentat el projecte TECTUGA. Hem explicat com biòlegs marins i enginyers treballen junts per estudiar la vida de les tortugues marines. I els alumnes han pogut pilotar un dels vehicles autònoms de superfície (ASV) de l’ICM!',
+      'Hoy hemos recibido la primera visita de alumnos de 4.º de ESO de diferentes escuelas del entorno del ICM, donde hemos presentado el proyecto TECTUGA. Hemos explicado cómo biólogos marinos e ingenieros trabajan juntos para estudiar la vida de las tortugas marinas. ¡Y los alumnos han podido pilotar uno de los vehículos autónomos de superficie (ASV) del ICM!',
+      'Today we welcomed the first visit of secondary-school students (4th year of ESO, aged 15–16) from different schools around ICM, where we presented the TECTUGA project. We explained how marine biologists and engineers work together to study the lives of sea turtles. The students even got to pilot one of ICM’s autonomous surface vehicles (ASVs)!',
+    ],
+  },
+  {
+    date: '2026-11-10',
     image: 'img/news/open-house-poster.jpg',
     type: 'outreach',
     title: [
