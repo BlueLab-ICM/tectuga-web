@@ -87,7 +87,10 @@ export default {
       { region: 'Canary Islands', species: 'Green and loggerhead turtles', places: ['El Pajar beach, Gran Canaria', 'Abades Bay, Tenerife', 'Teno-Rasca marine strip (SAC), Tenerife'], text: 'Two 10-day tagging missions per year with ADS Biodiversidad.' },
       { region: 'Balearic Sea', species: 'Loggerhead turtles', places: ['Expeditions on board the Bonnie Lass'], text: 'Two tagging missions per year with SaveTheMed.' },
       { region: 'Barcelona', species: 'Technology', places: ['ICM-CSIC Oceanographic Engineering Lab', 'Coastal waters of Barcelona'], text: 'Development and sea trials of the ASV fleet and tracking algorithms.' },
+      { region: 'València', species: 'Camera testing', places: ['Fundación Oceanogràfic, València'], text: 'We use their facilities to test the animal-borne cameras.' },
     ],
+    mapLabel: 'Map of the TECTUGA study sites: Canary Islands, Balearic Sea, Barcelona and València',
+    legend: { turtle: 'Sea turtle experiments', asv: 'ASV experiments' },
   },
   team: {
     label: 'Team',
