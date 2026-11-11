@@ -5,7 +5,7 @@ export default {
     { name: 'Ivan Masmitja', photo: 'ivan-masmitja.jpg', org: 'ICM-CSIC', area: ['Robòtica marina · seguiment d’objectius submarins', 'Robótica marina · seguimiento de objetivos submarinos', 'Marine robotics · underwater target tracking'] },
   ],
   research: [
-    { name: 'Mariana Saubidet', org: 'Universitat Autònoma de Barcelona', area: ['Veterinària · benestar animal', 'Veterinaria · bienestar animal', 'Veterinary · animal welfare'] },
+    { name: 'Mariana Saubidet', org: 'UAB', area: ['Veterinària · benestar animal', 'Veterinaria · bienestar animal', 'Veterinary · animal welfare'] },
     { name: 'Marta Carretón', org: 'ICATMAR', area: ['Cogestió pesquera', 'Cogestión pesquera', 'Fisheries co-management'] },
     { name: 'Mario Martin', photo: 'mario-martin.jpg', org: 'UPC', area: ['Intel·ligència artificial · MARL', 'Inteligencia artificial · MARL', 'Artificial intelligence · MARL'] },
     { name: 'Raül Bardaji', photo: 'raul-bardaji.jpg', org: 'ICM-CSIC', area: ['Enginyeria de dades · sensors marins', 'Ingeniería de datos · sensores marinos', 'Data engineering · marine sensors'] },
