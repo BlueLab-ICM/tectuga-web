@@ -5,11 +5,10 @@ export default {
     { name: 'Ivan Masmitja', photo: 'ivan-masmitja.jpg', org: 'ICM-CSIC', area: ['Robòtica marina · seguiment d’objectius submarins', 'Robótica marina · seguimiento de objetivos submarinos', 'Marine robotics · underwater target tracking'] },
   ],
   research: [
-    { name: 'Mariana Saubidet', org: 'Fundación Oceanogràfic', area: ['Veterinària · benestar animal', 'Veterinaria · bienestar animal', 'Veterinary · animal welfare'] },
+    { name: 'Mariana Saubidet', org: 'Universitat Autònoma de Barcelona', area: ['Veterinària · benestar animal', 'Veterinaria · bienestar animal', 'Veterinary · animal welfare'] },
     { name: 'Marta Carretón', org: 'ICATMAR', area: ['Cogestió pesquera', 'Cogestión pesquera', 'Fisheries co-management'] },
     { name: 'Mario Martin', photo: 'mario-martin.jpg', org: 'UPC', area: ['Intel·ligència artificial · MARL', 'Inteligencia artificial · MARL', 'Artificial intelligence · MARL'] },
     { name: 'Raül Bardaji', photo: 'raul-bardaji.jpg', org: 'ICM-CSIC', area: ['Enginyeria de dades · sensors marins', 'Ingeniería de datos · sensores marinos', 'Data engineering · marine sensors'] },
-    { name: 'Biljana Aljinovic', org: 'SaveTheMed', area: ['Marcatge de tortugues · mar Balear', 'Marcaje de tortugas · mar Balear', 'Sea turtle tagging · Balearic Sea'] },
   ],
   work: [
     { name: 'Alasdair Davies', org: 'Arribada Initiative', area: ['Tecnologia oberta per a la conservació', 'Tecnología abierta para la conservación', 'Open-source conservation technology'] },
@@ -21,6 +20,7 @@ export default {
     { name: 'Korneel Somers', photo: 'korneel-somers.jpg', org: 'ICM-CSIC', area: ['Tècnic · màster en robòtica', 'Técnico · máster en robótica', 'Technician · MSc in Robotics'] },
     { name: 'Pedro Agundez', org: 'ICM-CSIC', area: ['Tècnic · màster en intel·ligència artificial', 'Técnico · máster en inteligencia artificial', 'Technician · MSc in Artificial Intelligence'] },
     { name: 'Ruth Doñate-Ordoñez', photo: 'ruth-donate.jpg', org: 'ICM-CSIC', area: ['Biòloga marina · doctorat amb imatges de càmeres en animals', 'Bióloga marina · doctorado con imágenes de cámaras en animales', 'Marine biologist · PhD on animal-borne camera imagery'] },
+    { name: 'Laura Fuentes-Tejada', photo: 'laura-fuentes-tejada.jpg', org: 'ICM-CSIC', area: ['Doctorat sobre la dinàmica de poblacions i les amenaces de les tortugues marines', 'Doctorado sobre la dinámica de poblaciones y las amenazas de las tortugas marinas', 'PhD on sea turtle population dynamics and threats'] },
   ],
   // Partner institutions: logo files live in public/img/logos/partners/ (optional).
   partners: [
