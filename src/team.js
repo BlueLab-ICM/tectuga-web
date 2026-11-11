@@ -26,7 +26,7 @@ export default {
   partners: [
     { name: 'ICM-CSIC', url: 'https://www.icm.csic.es/', logo: 'icm.png' },
     { name: 'UPC', url: 'https://www.upc.edu/', logo: 'upc.png' },
-    { name: 'UAB', url: 'https://www.uab.cat/', logo: 'uab.png' },
+    { name: 'UAB', url: 'https://www.uab.cat/', logo: 'logotip-versio-1-principal-negatiu-verd.jpg' },
     { name: 'ICATMAR', url: 'https://icatmar.cat/', logo: 'icatmar.png' },
     { name: 'Fundación Oceanogràfic', url: 'https://fundacionoceanografic.org/', logo: 'oceanografic.png' },
     { name: 'SaveTheMed', url: 'https://www.savethemed.org/', logo: 'logo-save-the-med.png' },
