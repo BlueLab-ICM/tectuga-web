@@ -10,6 +10,27 @@
 //   image: optional file in public/img/news/, e.g. 'img/news/canarias-2027.jpg'
 export default [
   {
+    date: '2026-11-20',
+    image: 'img/news/robot2026-poster.jpg',
+    images: ['img/news/robot2026-poster.jpg', 'img/news/robot2026-talk.jpg'],
+    type: 'conference',
+    title: [
+      'Els nostres BlueBoats al congrés ROBOT2026',
+      'Nuestros BlueBoats en el congreso ROBOT2026',
+      'Our BlueBoats at ROBOT2026',
+    ],
+    text: [
+      'Dos membres de l’equip han participat a la 9a Iberian Robotics Conference (ROBOT2026), celebrada a Barcelona del 18 al 20 de novembre, amb el pòster «Open-source ROS 2 autonomy for BlueBoat ASVs: from one adaptive vehicle to a cooperative fleet» i una presentació curta a la sessió de pòsters. Hi hem mostrat les millores que fem als nostres vehicles autònoms de superfície: un segon ordinador a bord amb ROS 2, càmera i detecció amb YOLO, i enllaços 4G, LoRaWAN i acústics. A les proves a l’Espai Vela del port de Barcelona, el BlueBoat va trobar una boia només amb la càmera i hi va passar per sobre a cada intent. Ara estem preparant dos BlueBoats més per treballar en flota. Treball de l’ICM-CSIC i el grup SARTI de la UPC (Somers, Agundez, Bardaji, Aguzzi, Pradell, Carandell, Gomariz i Masmitja). Pots descarregar el pòster en PDF.',
+      'Dos miembros del equipo han participado en la 9.ª Iberian Robotics Conference (ROBOT2026), celebrada en Barcelona del 18 al 20 de noviembre, con el póster «Open-source ROS 2 autonomy for BlueBoat ASVs: from one adaptive vehicle to a cooperative fleet» y una presentación corta en la sesión de pósteres. Mostramos las mejoras que estamos haciendo en nuestros vehículos autónomos de superficie: un segundo ordenador a bordo con ROS 2, cámara y detección con YOLO, y enlaces 4G, LoRaWAN y acústicos. En las pruebas en el Espai Vela del puerto de Barcelona, el BlueBoat encontró una boya solo con la cámara y pasó por encima de ella en cada intento. Ahora estamos preparando dos BlueBoats más para trabajar en flota. Trabajo del ICM-CSIC y el grupo SARTI de la UPC (Somers, Agundez, Bardaji, Aguzzi, Pradell, Carandell, Gomariz y Masmitja). Puedes descargar el póster en PDF.',
+      'Two members of the team took part in the 9th Iberian Robotics Conference (ROBOT2026), held in Barcelona on 18–20 November, with the poster “Open-source ROS 2 autonomy for BlueBoat ASVs: from one adaptive vehicle to a cooperative fleet” and a short talk in the poster session. We showed the improvements we are making to our autonomous surface vehicles: a second onboard computer running ROS 2, a camera with YOLO detection, and 4G, LoRaWAN and acoustic links. In trials at Espai Vela in the Port of Barcelona, the BlueBoat found a buoy using only its camera and passed over it on every attempt. We are now fitting two more BlueBoats to work as a fleet. Work by ICM-CSIC and the SARTI group at UPC (Somers, Agundez, Bardaji, Aguzzi, Pradell, Carandell, Gomariz and Masmitja). You can download the poster as a PDF.',
+    ],
+    links: [
+      { label: 'ROBOT2026', url: 'https://robot2026.upc.edu/' },
+      { label: 'PDF', url: './files/robot2026-poster-blueboat.pdf' },
+      { label: 'GitHub · BlueLab-ICM', url: 'https://github.com/BlueLab-ICM' },
+    ],
+  },
+  {
     date: '2026-07-28',
     image: 'img/news/jembe-2026-turtlecam.jpg',
     type: 'publication',
