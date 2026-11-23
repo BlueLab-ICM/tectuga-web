@@ -13,7 +13,6 @@ export default [
     date: '2026-11-20',
     id: '2026-11-20-espai-vela',
     image: 'img/news/espai-vela-2asv-equip.jpg',
-    images: ['img/news/espai-vela-2asv-equip.jpg', 'img/news/espai-vela-2asv-mar.jpg'],
     type: 'campaign',
     title: [
       'Dos BlueBoats a l’aigua alhora per primer cop',
