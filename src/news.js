@@ -11,6 +11,27 @@
 export default [
   {
     date: '2026-11-20',
+    id: '2026-11-20-espai-vela',
+    image: 'img/news/espai-vela-2asv-equip.jpg',
+    images: ['img/news/espai-vela-2asv-equip.jpg', 'img/news/espai-vela-2asv-mar.jpg'],
+    type: 'campaign',
+    title: [
+      'Dos BlueBoats a l’aigua alhora per primer cop',
+      'Dos BlueBoats en el agua a la vez por primera vez',
+      'Two BlueBoats in the water together for the first time',
+    ],
+    text: [
+      'El divendres 20 de novembre vam tornar a l’Espai Vela de la Facultat de Nàutica de Barcelona (FNB-UPC), al port de Barcelona, i per primer cop vam posar a l’aigua dos dels nostres vehicles autònoms de superfície alhora. Un va seguir una boia de superfície mentre l’altre cartografiava el fons marí amb una ecosonda multifeix. Aquests dos BlueBoats seran el nostre banc de proves per a la recerca en robòtica marina, mostreig adaptatiu i aprenentatge per reforç: un primer pas cap a la flota cooperativa.',
+      'El viernes 20 de noviembre volvimos al Espai Vela de la Facultat de Nàutica de Barcelona (FNB-UPC), en el puerto de Barcelona, y por primera vez pusimos en el agua dos de nuestros vehículos autónomos de superficie a la vez. Uno siguió una boya de superficie mientras el otro cartografiaba el fondo marino con una ecosonda multihaz. Estos dos BlueBoats serán nuestro banco de pruebas para la investigación en robótica marina, muestreo adaptativo y aprendizaje por refuerzo: un primer paso hacia la flota cooperativa.',
+      'On Friday 20 November we went back to the Espai Vela of the Barcelona School of Nautical Studies (FNB-UPC), in the Port of Barcelona, and for the first time put two of our autonomous surface vehicles in the water at the same time. One tracked a surface buoy while the other mapped the seafloor with a multibeam echosounder. These two BlueBoats will be our testbed for research in marine robotics, adaptive sampling and reinforcement learning: a first step towards the cooperative fleet.',
+    ],
+    links: [
+      { label: 'ICM · LinkedIn', url: 'https://www.linkedin.com/posts/icmcsic_marinerobotics-asv-oceantech-activity-7530550439721914368-MwTV' },
+      { label: 'Espai Vela (FNB-UPC)', url: 'https://www.fnb.upc.edu/content/nou-espai-vela-de-la-fnb-al-port-de-barcelona' },
+    ],
+  },
+  {
+    date: '2026-11-20',
     image: 'img/news/robot2026-poster.jpg',
     images: ['img/news/robot2026-poster.jpg', 'img/news/robot2026-talk.jpg'],
     type: 'conference',
